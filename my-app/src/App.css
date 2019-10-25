@@ -1,0 +1,45 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.ant-input {
+  width: 50% !important
+}
+
+.ant-form {
+  padding: 10em 0 !important;
+  border: 5px pink solid;
+  border-radius: 20px;
+  margin: 5em 25em !important;
+}
+
+.title {
+    font-family: fantasy;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+}
+
+button {
+  margin: inherit;
+  background-color: rgb(125, 199, 174) !important;
+}
