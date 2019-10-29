@@ -1,6 +1,7 @@
 import React, {Component}  from 'react';
 import InputField from '../InputField';
 import { Form, Button, DatePicker } from 'antd';
+import { userFormRef } from '../../firebase'
 
 class UserForm extends Component {
 state = {
@@ -30,7 +31,10 @@ submitHandler = (event) => {
         age,
         hobby
     }
+    userFormRef.push().set(userData)
     console.log(userData, 'Huraayyyy we did it')
+    alert('User Data submitted successfully')
+   
 }
 
 render(){
